@@ -1,11 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "tMSplHNBefAdGS8mGLIAeo80s6s6b1+skEzI75lV7+7/fIwjlzuq3xTuWfjipSf9jfb3TjWs/02BgCk3Owy40g==",
+  "dgSpecHash": "e/qnQoX5eaz5qEe+g/XGI6hDCIDgkEvvDxNaADjYIyFiXFOU6F3nbNvlmJgyFhxbWQXyyFSYaS923xS71bjx1w==",
   "success": true,
   "projectFilePath": "/Users/caioalves/Downloads/NumberGuessingApp/application.csproj",
-  "expectedPackageFiles": [
-    "/Users/caioalves/.nuget/packages/microsoft.netcore.app.ref/3.0.0/microsoft.netcore.app.ref.3.0.0.nupkg.sha512",
-    "/Users/caioalves/.nuget/packages/microsoft.aspnetcore.app.ref/3.0.1/microsoft.aspnetcore.app.ref.3.0.1.nupkg.sha512"
-  ],
+  "expectedPackageFiles": [],
   "logs": []
 }

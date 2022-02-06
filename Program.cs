@@ -65,7 +65,7 @@ namespace application
 				}
 
 
-				// ask to palay again
+				// ask to play again
 				Console.WriteLine($"Play again? [Y or N]");
 
 				// get answer
@@ -76,7 +76,10 @@ namespace application
 				}
                 else if (answer == "N")
 				{
-					return;
+						// output success message
+						printColorMessage(ConsoleColor.Green, "Thanks for playing!");
+						Console.WriteLine("Your score: " + count);
+						return;
 				}
 				else
 				{
@@ -91,7 +94,7 @@ namespace application
 		{
 			// set app vars
 			string appName = "Number guesser";
-			string appVersion = "1.0.2";
+			string appVersion = "1.0.3";
 			string appAuthor = "Caio Alves";
 
 

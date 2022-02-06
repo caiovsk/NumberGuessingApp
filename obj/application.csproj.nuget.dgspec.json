@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/Caio/Number guessing/application.csproj": {}
+    "/Users/caioalves/Downloads/NumberGuessingApp/application.csproj": {}
   },
   "projects": {
-    "/Users/Caio/Number guessing/application.csproj": {
+    "/Users/caioalves/Downloads/NumberGuessingApp/application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/Caio/Number guessing/application.csproj",
+        "projectUniqueName": "/Users/caioalves/Downloads/NumberGuessingApp/application.csproj",
         "projectName": "application",
-        "projectPath": "/Users/Caio/Number guessing/application.csproj",
-        "packagesPath": "/Users/Caio/.nuget/packages/",
-        "outputPath": "/Users/Caio/Number guessing/obj/",
+        "projectPath": "/Users/caioalves/Downloads/NumberGuessingApp/application.csproj",
+        "packagesPath": "/Users/caioalves/.nuget/packages/",
+        "outputPath": "/Users/caioalves/Downloads/NumberGuessingApp/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/Caio/.nuget/NuGet/NuGet.Config"
+          "/Users/caioalves/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.0"
@@ -24,6 +24,7 @@
         },
         "frameworks": {
           "netcoreapp3.0": {
+            "targetAlias": "netcoreapp3.0",
             "projectReferences": {}
           }
         },
@@ -35,6 +36,7 @@
       },
       "frameworks": {
         "netcoreapp3.0": {
+          "targetAlias": "netcoreapp3.0",
           "imports": [
             "net461",
             "net462",
@@ -45,12 +47,22 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.0.1, 3.0.1]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[3.0.0, 3.0.0]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.0.101/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.103/RuntimeIdentifierGraph.json"
         }
       }
     }

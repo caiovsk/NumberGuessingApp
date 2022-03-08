@@ -78,7 +78,7 @@ namespace application
 				{
 						// output success message
 						printColorMessage(ConsoleColor.Green, "Thanks for playing!");
-						Console.WriteLine("Your score: " + count);
+						Console.WriteLine("Your final score: " + count);
 						return;
 				}
 				else
